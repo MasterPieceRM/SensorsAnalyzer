@@ -1,7 +1,7 @@
-Poveste
+Poveste: 
 A fost odata ca niciodata, in lumea Formula 1, o echipa legendara numita Ferrari. Aceasta echipa italiana si-a inceput calatoria in lumea curselelor in anul 1950 si de atunci a devenit una dintre cele mai recunoscute si respectate echipe din istoria sportului cu motor. Povestea Ferrari in lumea Formula 1 este una plina de momente de sacrificiu si durere. Cu toate acestea, pasiunea lor pentru motorsport ramane la fel de puternica ca intotdeauna si continuă sa inspire si sa impresioneze fanii din intreaga lume. Inginerii de la Ferrari au nevoie de ajutorul tau pentu a reusi sa castige curse in acest sezon. Au realizat ca una dintre probelmele masinii lor este cauzata de niste senzori defecti (cumparati de pe AliExpress) care transmit date gresite catre echipa de ingineri. Ajutati echipa sa identifice si sa elimine datele eronate pentru a castiga curse.
 
-Implementare
+Implementare: 
 Implementarea va consta crearea unui vector de tip Sensor* ce va contine doua tipuri de senzori: Tire Sensor si Power Management Unit Sensor (vezi mai jos structurile). O structura de tip Sensor va contine pe langa datele sensorului asociat si un vector cu indicii operatiilor ce vor trebui efectuate pe date sensorului. Sunt un numar total de 8 operatii sub forma de functii care trebuie apelate pe datele sensorului. Implementarea acestora se gaseste in fisierul operations.c din schelet, avand urmatoarele antete:
 
 static void tire_pressure_status(void* data);
